@@ -1,12 +1,14 @@
-scripts/wiz* 
-scripts/twi* 
-scripts/ls_* 
-scripts/ex1* 
-scripts/.Rhistory 
-scripts/chambers* 
-scripts/dataframe.png 
-scripts/matrix-output* 
-scripts/dataframes.png 
-scripts/r-data-structures.pptx 
-scripts/rGUI-screenshot* 
-scripts/vectors.png 
+scripts/wiz*
+scripts/twi*
+scripts/ls_*
+scripts/ex1*
+scripts/.Rhistory
+scripts/chambers*
+scripts/dataframe.png
+scripts/matrix-output*
+scripts/dataframes.png
+scripts/r-data-structures.pptx
+scripts/rGUI-screenshot*
+scripts/vectors.png
+.Rproj.user
+"Introduction to R Programming.pptx"
