@@ -13,3 +13,5 @@ scripts/vectors.png
 .Rproj.user
 "Introduction to R Programming.pptx"
 r-data-structures.pptx
+.Rhistory
+.RData
