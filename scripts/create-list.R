@@ -41,6 +41,10 @@ download.file(url = "https://download.microsoft.com/download/4/C/8/4C830C0C-101F
               mode = "w")   # download sample file from Microsoft website                     
 DF <- read.csv(file = "microsoft_sample.csv") # data frane from dowloaded file
 
+hex <- charToRaw("National Environmental Standards and Regulations Enforcement Agency")
+
+NESREA_in_bits <- rawToBits(hex)
+
 # Now compile all these into a list
 mumbo_jumbo <- list(num_vec,
                     num_vec_neg,
@@ -49,11 +53,19 @@ mumbo_jumbo <- list(num_vec,
                     treee,
                     Circle,
                     table_def,
-                    DF)
+                    DF,
+                    hex,
+                    NESREA_in_bits)
 mumbo_jumbo     # display the entire list in the console (if you can!)
+
+str(mumbo_jumbo)
 
 # is this actually a list?
 typeof(mumbo_jumbo)
 
-# Exercise:
-# What is the type of the various objects in this list?
+
+# Empasize the existence of lists of lists i.e. nested lists
+lister <- list(list(list(list(1))))
+lister
+str(lister)
+typeof(lister)
