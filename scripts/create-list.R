@@ -49,3 +49,11 @@ mumbo_jumbo <- list(num_vec,
 
 # is this actually a list?
 typeof(mumbo_jumbo)
+
+
+# Empasize the existence of lists of lists i.e. nested lists
+lister <- list(list(list(list(1))))
+lister
+str(lister)
+typeof(lister)
+#END
