@@ -65,7 +65,7 @@ typeof(mumbo_jumbo)
 
 
 # Emphasize the existence of lists of lists i.e. nested lists
-lister <- list(list(list(list(1))))
+lister <- list(list(list(list(1)))) # Source: http://adv-r.had.co.nz/Data-structures.html
 lister
 str(lister)
 typeof(lister)
