@@ -8,6 +8,7 @@ This repository contains materials used for in-house training conducted for the 
   * [Introduction to R](https://github.com/NESREA/WMGtraining/blob/master/presentations/intro-to-r-programming.pdf)
   * [R Data Structures](https://github.com/NESREA/WMGtraining/blob/master/presentations/r-data-structures.pdf)
   * [GitHub: An Intro](https://github.com/NESREA/WMGtraining/blob/master/presentations/GitHub.pdf)
+  * [Git: The Basics](https://github.com/NESREA/WMGtraining/blob/master/presentations/Git.pdf)
 
 2. Scripts 
   * [Vector exercise](https://github.com/NESREA/WMGtraining/blob/master/scripts/create-vector.R)
